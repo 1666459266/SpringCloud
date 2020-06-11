@@ -1,0 +1,9 @@
+Eureka基于Java语言 属于AP分支 可配置服务健康检查 对外暴露HTTP接口 SpringCloud已集成
+Consul基于GO语言 属于CP分支 支持健康服务检查 对外暴露HTTP/DNS接口 SpringCloud已集成
+Zookeeper基于Java语言 属于CP分支 支持健康服务检查 对外暴露客户端  SpringCloud已集成
+
+CAP Consistency（强一致性） Availability（可用性） Partiton tolerance（分区容错性）
+CAP理论核心 一个分布式系统不可能很好的同时满足一致性 可用性 分区容错性 最多只能同时较好的满足两个（分布式中P分支必须存在）
+CA 单点集群 满足强一致性 可用性系统 可扩展性上不太强大（关系型数据库 Orcale，MySQL）
+CP 满足一致性 性能不是特别高 （Redis，MongoDB）
+AP 满足可用性 对一致性要求较低 （大多数网站架构选择AP）

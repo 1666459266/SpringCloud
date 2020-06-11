@@ -1,0 +1,5 @@
+Zookeeper+Dubbo-->Zookeeper+SpringCloud
+SpringCloud整合Zookeeper代替Eureka
+Zookeeper是一个分布式的协调工具 可以实现注册中心功能 Zookeeper服务器取代Eureka服务器作为服务注册中心
+每一个微服务作为一个节点存入Zookeeper中 服务节点分为临时节点（临时节点和带序号的临时节点）和持久节点（持久节点和带序号的持久节点）
+Zookeeper的服务节点是临时的 Zookeeper搭建集群环境 只需在connect-string配置多个服务地址 用,隔开

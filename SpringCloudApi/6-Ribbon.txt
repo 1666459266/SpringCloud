@@ -1,0 +1,43 @@
+Spring Cloud Ribbon是基于Netflix Ribbon实现的一套客户端 负载均衡工具
+Ribbon是Netflix发布的开源项目 主要功能是提供客户端的软件负载均衡算法和服务调用 Ribbon客户端组件提供了一系列完善的配置
+在配置文件中列出Load Balancer后面所有的机器 Ribbon会自动帮助你基于某种规则去连接这些机器 可以使用Ribbon实现自定义的负载均衡算法
+LB主要用于负载均衡（集中式LB（服务端负载均衡）和进程内LB（本地负载均衡））
+    集中式LB 在服务的消费方和提供方之间使用独立的LB设施 由该设施把访问请求通过某种策略转发至服务的提供方
+    进程内LB 将LB逻辑集成到消费方 消费方法从服务注册中心获知有哪些地址可用 然后自己从这些地址中选择一个合适的服务器
+
+负载均衡是将用户的请求平摊的分配到多个服务上 从而达到系统的高可用 常见的负载均衡有Nginx LVS 硬件F5
+Nginx服务器负载均衡 客户端所有请求都会交给Nginx 然后由Nginx实现转发请求 即负载均衡是由服务端实现的
+Ribbon是本地负载均衡客户端 在调用微服务接口时 会在注册中心获取注册信息服务列表之后缓存到JVM本地 从而在本地实现RPC远程服务调用技术
+Ribbon是一个类库 集成于消费方进程 消费方式通过它来获取服务提供方的地址
+
+应用：负载均衡+RestTemplate调用
+
+Ribbon是一个软负载均衡的客户端软件 可以和其他所需请求的客户端结合使用 和Eureka结合只是其中一种（Eureka自带Ribbon 没有必要加Ribbon依赖）
+Ribbon工作分为两步
+    第一步先选择Eureka Server 它优先选择在同一区域内负载较少的Server
+    第二步再根据用户指定策略 在从server取到的服务注册列表中选择一个地址
+Ribbon提供了多种策略 比如轮询 随机 根据响应时间加权
+
+RestTemplate常用的方法 更详细的信息需要Entity Json字符串需要Object
+    getForObject/getForEntity
+    postForObject/postForEntity
+
+IRule根据特定算法中从服务列表选取一个要访问的服务（Ribbon核心组件IRule）
+    RoundRobinRule  轮询
+    RandomRule  随机
+    RetryRule   先按照RoundRobinRule的策略获取服务 如果获取服务失败则在指定时间内会进行重试 获取可用服务
+    WeightedResponseTimeRule    对RoundRobinRule扩展 相应速度越快的实例选择权重越大 越容易被选择
+    BestAvailableRule   先过滤由多次访问故障而出于断路器跳闸状态的服务 然后选择一个并发量最小的服务
+    AvailabilityFilteringRule   先过滤故障实例 再选择并发较小的实例
+    ZoneAvoidanceRule   默认规则 复合判断server所在的区域的性能和server的可用性选择服务器
+
+替换轮序算法 自定义配置类不能放在@ComponentScan所扫描的当前包下以及子包下 否则自定义配置类就会被所有Ribbon客户端共享 达不到特殊化定制的目的
+自定义配置需要重写一个包 @SpringBootApplication注解中带有@ComponentScan注解
+
+负载均衡算法 rest接口第几次请求数 % 服务器集群总数量 = 实际调用服务器位置下标（每次服务重启后rest接口从1开始）
+List<ServiceInstance> instances = discoveryClient.getInstances("SPRINGCLOUD-PAYMENT");
+    例如  服务器总数有2台    List = 2
+        1 % 2 = 1 --> index = 1 list.get(index);
+        2 % 2 = 0 --> index = 0 list.get(index);
+        3 % 2 = 1 --> index = 1 list.get(index);
+        4 % 2 = 0 --> index = 0 list.get(index);

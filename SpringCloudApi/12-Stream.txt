@@ -1,0 +1,26 @@
+消息驱动 SpringCloud Stream
+为什么引入Stream 构建消息驱动微服务的框架 目前只支持RabbitMQ和Kafka
+    不需要关注MQ的细节 我们只需要一种适配绑定的方式 自动的给我们在各种MQ内切换
+    屏蔽底层消息中间件差异 降低切换版本成本 统一消息的编程模型
+应用程序通过inputs或outputs来与SpringCloud Stream中binder对象交互 通过我们配置来binding SpringCloud Stream负责与消息中间件交互
+所以只需要与SpringCloud Stream交互就可以方便使用消息驱动
+
+设计思想
+    通过定义绑定器Binder作为中间层 完美的实现了应用程序与消息中间件细节之间的隔离（input对应消费者 output对应生产者）遵循发布订阅模式
+    向应用程序暴露统一的Channel通道 使得应用程序不需要再考虑各种不同的消息中间件实现
+
+Stream编码常用注解
+    Binder 很方便的连接中间件 屏蔽差异
+    Channel 通道是队列Queue的一种抽象 在消息通讯系统中实现存储和转发的媒介 通过Channel对队列进行配置
+    Source和Sink 从Stream发布消息就是输出 接受消息就是输入
+    @Input（标识输入通道 接受的消息将通过该通道进入应用程序） @Output（标识输出通道 发布的消息将通过该通道离开应用程序）
+    @StreamListener（监听队列 消费者队列接受消息） @EnableBinding（信道channel与exchange绑定在一起）
+
+8802和8803都运行存在两个问题 重复消费和消息持久化 解决方案（分组和持久化属性group）
+在Stream中同一个group中的多个消费者是竞争关系 就能够保证消息只会被其中一个应用消费一次 不同组会重复消费
+
+重复消费
+    重复消费的原因是因为默认分组group是不同的 组流水号不一样被认为是不同组 所以才会重复消费
+    自定义配置分组 自定义配置分为同一个组 解决重复消费问题
+消息持久化
+    自定义配置分组完成消息持久化

@@ -1,0 +1,36 @@
+微服务是一个个微小的服务 独立的进程 轻量级的 可独立部署
+微服务架构是一种架构模式 将单一的应用程序划分为一组小的服务 服务之间互相协调 互相配合 为用户提供最终价值
+每个服务运行在独立的进程中 服务与服务采用轻量级的通信机制互相协作 独立的部署到生产环境
+基于分布式的微服务架构 融合协调组装一切 使构建分布式系统变得更加容易
+
+对分布式服务架构的理解
+	服务注册与发现 服务调用 服务熔断 负载均衡 服务降级 服务消息队列
+	配置中心管理 服务网关 服务监控 全链路追踪 自动化构建部署 服务定时任务调度操作
+SprigCloud 分布式微服务架构的一站式解决方案 是多种微服务架构落地技术的集合体
+SpringCloud 已经成为微服务开发的主流技术栈
+
+主流技术
+	服务注册与发现 Eureka Zookeeper Consul SpringCloudAlibabaNacos
+	服务负载与调用 Ribbon LoadBalancer Feign OpenFeign
+	服务熔断降级 Hystrix resilience4j SpringCloudAlibabaSentinel
+	服务网关 Zuul Gateway
+	服务分布式配置 SpringCloudConfig SpringCloudAlibabaNacos
+	服务总线 Bus SpringCloudAlibabaNacos
+	服务开发 SpringBoot
+
+由SpringCloud决定SpringBoot版本
+SpringBoot 2.2.2.RELEASE
+SpringCloud Hoxton.SR1
+SpringCloud alibaba 2.1.0.RELEASE
+Java Java8
+Maven 3.5及以上
+MySQL 5.7及以上
+
+搭建微服务模块
+	建module
+	改pom
+	写yml
+	主启动
+	业务类
+
+在SpringCloud中 使用任意组件 1.使用 2.激活

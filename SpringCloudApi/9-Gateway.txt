@@ -1,0 +1,52 @@
+服务网关 所有的微服务架构都需要网关 用网关进行日志 限流 鉴权 安全加固等工作
+SpringCloud很重要的组件就是网关 由Spring研发的一个网关替代Zuul
+Gateway旨在提供一种简单而有效的方式对API进行路由 以及提供一些强大的过滤器功能 例如熔断 限流 重试等
+SpringCloud Gateway是基于Webflux框架实现的 而Webflux框架底层则使用高性能的Reactor模式通信框架Netty
+SpringCloud Gateway的目标是提供统一的路由方式且基于Filter链的方式提供了网关基本功能 例如安全 监控/指标 限流
+Servlet3.1以后有了异步非阻塞的支持 Webflux是一个典型的非阻塞异步框架 （非阻塞式+函数式编程）
+请求先经过Nginx 再经过网关 网关是所有微服务的入口
+
+为什么选择Gateway
+    Neflix Zuul2.0一直跳票 迟迟不发布 Zuul1.0进入维护 Gateway基于异步非阻塞模型上进行开发的 Zuul1.x基于阻塞I/O（基于Servlet2.5使用阻塞框架）的API Gateway
+    Gateway特性
+        Gateway基于SpringFramework 5,Project Reactor和SpringBoot2.0进行构建 支持长链接
+        动态路由 能够匹配任何请求属性
+        可以对路由指定Predicate（断言）和Filter（过滤器）
+        继承Hystrix的断路器功能
+        继承SpringCloud服务发现功能
+        易于编写Predicate（断言）和Filter（过滤器）
+        请求限流功能
+        支持路径重写
+
+Gateway三大核心概念
+    Route（路由）路由是构建网关的基本模块 它由ID，URI一系列的断言和过滤器组成 如果断言为true则匹配该路由
+    Predicate（断言）开发人员可以匹配HTTP请求中所有内容 如果请求与断言相匹配则进行路由
+    Filter（过滤）Spring框架中GatewayFilter实例 使用过滤器可以在请求被路由前或者之后对请求进行修改
+Netty Server-->Predicate-->Route-->Filter-->Netty Client-->微服务（Predicate是匹配条件 Filter是一个无所不能的拦截器 再加上目标URI就可以实现一个具体的路由）
+Gateway工作流程（核心逻辑是路由转发+执行过滤器链）
+    客户端向SpringCloud Gateway发出请求 然后在Gateway Handler Mapping中找到与请求相匹配的路由 将其发送到Gateway Web Handler
+    Handler再通过指定的过滤器链来请求发送到我们实际的服务执行业务逻辑 然后返回
+    过滤器之间用虚线分开是因为过滤器可能会在发送代理之前（pre）或之后（post）执行业务逻辑
+    Filter在pre类型的过滤器可以做参数校验 权限校验 流量监控 日志输出 协议转换等 在post类型的过滤器可以响应内容 响应头修改 日志输出 流量监控
+配置网关 不想暴露服务端口 需要配置网关 配置网关的方式有两种（1.在yml中配置 2.代码中注入RouteLocator的Bean）
+动态路由 客户端访问网关 由网关实现负载均衡 默认情况Gateway会根据注册中心注册的服务列表 以注册中心上微服务名为路径创建动态路由进行转发 从而实现动态路由的功能
+
+Predicate的使用 在配置的Predicate中 能找到相匹配的则为真 否则为假
+YML - After 在配置的时间之后访问才有效
+    - Before 在配置的时间之前访问才有效
+    - Between 在配置的时间之间访问才有效
+    - Cookie 需要两个参数 一个是Cookie name 一个是正则表达式 路由规则会通过获取对应的Cookie name和正则表达式匹配 如果匹配执行路由 如果不匹配则不执行路由
+    - Header 需要两个参数 一个是属性名称 一个是正则表达式 这个属性值和正则表达式匹配则执行
+    - Host 接受一组参数一组匹配的域名列表 通过参数中的主机地址作为匹配规则
+    - Method 请求方式匹配才能执行路由
+    - Path 请求路径匹配才能执行路由
+    - Query=username, \d+ 请求带有参数名并且值必须是整数才能路由
+自定义路由 GatewayConfig
+Predicate 就是为了实现一组匹配规则 让请求找到对应的Route进行处理
+
+Filter的使用 路由过滤器可用于修改进入的HTTP请求和返回的HTTP响应 路由过滤器只能指定路由进行使用（SpringCloud Gateway内置了多种路由过滤器 都由GatewayFilter工厂类产生）
+生命周期 Pre Post 种类 GatewayFilter（单一的） GlobalFilter（全局的）
+YML filters:
+        - AddRequestParameter=X-Request-Id,1024 #过滤器工厂会在匹配的请求头上加一对请求头 名为X-Request-Id值为1024
+自定义过滤器
+    自定义全局MyGlobalFilter 需要实现GlobalFilter和Ordered 可以用作参数校验 权限校验 流量监控 日志输出 协议转换等

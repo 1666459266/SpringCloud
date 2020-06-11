@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-alibaba-payment-sentinel-ribbon9003" />
+        <module name="springcloud-payment-hystrix8001" />
+        <module name="springcloud-config-client3355" />
+        <module name="springcloud-alibaba-seata-order2001" />
+        <module name="springcloud-order80" />
+        <module name="springcloud-alibaba-payment-sentinel9003" />
+        <module name="springcloud-sleuth-consumer80" />
+        <module name="springcloud-stream-consumer8803" />
+        <module name="springcloud-order-hystrix80" />
+        <module name="springcloud-api-commons" />
+        <module name="springcloud-sleuth-provider8001" />
+        <module name="springcloud-config-center3344" />
+        <module name="springcloud-alibaba-sentinel-service8401" />
+        <module name="springcloud-alibaba-config-nacos-client3377" />
+        <module name="springcloud-payment8001" />
+        <module name="spingcloud-stream-consumer8803" />
+        <module name="springcloud-payment8002" />
+        <module name="springcloud-order-feign80" />
+        <module name="springcloud-alibaba-payment-nacos9001" />
+        <module name="springcloud-alibaba-seata-storage2002" />
+        <module name="springcloud-alibaba-seata-account2003" />
+        <module name="springcloud-config-client3366" />
+        <module name="springcloud-order-zookeeper80" />
+        <module name="springcloud-stream-consumer8802" />
+        <module name="springcloud-alibaba-order-nacos80" />
+        <module name="springcloud-order-consul80" />
+        <module name="springcloud-stream-provider8801" />
+        <module name="springcloud-alibaba-order-sentinel80" />
+        <module name="springcloud-gateway9527" />
+        <module name="springcloud-hystrix-dashboard9001" />
+        <module name="springcloud-eureka-server7003" />
+        <module name="springcloud-eureka-server7002" />
+        <module name="springcloud-eureka-server7001" />
+        <module name="springcloud-payment-consul8001" />
+        <module name="springcloud-alibaba-payment-nacos9002" />
+        <module name="springcloud-payment-zookeeper8001" />
+        <module name="untitled1" />
+        <module name="springcloud-alibaba-payment-sentinel9004" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spingcloud-stream-consumer8803" target="1.8" />
+      <module name="springcloud-alibaba-payment-sentinel-ribbon9003" target="1.8" />
+      <module name="untitled" target="1.8" />
+      <module name="untitled1" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding utf-8" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringCloud" options="" />
+      <module name="spingcloud-stream-consumer8803" options="" />
+      <module name="springcloud-alibaba-config-nacos-client3377" options="" />
+      <module name="springcloud-alibaba-order-nacos80" options="" />
+      <module name="springcloud-alibaba-order-sentinel80" options="" />
+      <module name="springcloud-alibaba-payment-nacos9001" options="" />
+      <module name="springcloud-alibaba-payment-nacos9002" options="" />
+      <module name="springcloud-alibaba-payment-sentinel-ribbon9003" options="" />
+      <module name="springcloud-alibaba-payment-sentinel9003" options="" />
+      <module name="springcloud-alibaba-payment-sentinel9004" options="" />
+      <module name="springcloud-alibaba-seata-account2003" options="" />
+      <module name="springcloud-alibaba-seata-order2001" options="" />
+      <module name="springcloud-alibaba-seata-storage2002" options="" />
+      <module name="springcloud-alibaba-sentinel-service8401" options="" />
+      <module name="springcloud-api-commons" options="" />
+      <module name="springcloud-config-center3344" options="" />
+      <module name="springcloud-config-client3355" options="" />
+      <module name="springcloud-config-client3366" options="" />
+      <module name="springcloud-eureka-server7001" options="" />
+      <module name="springcloud-eureka-server7002" options="" />
+      <module name="springcloud-eureka-server7003" options="" />
+      <module name="springcloud-gateway9527" options="" />
+      <module name="springcloud-hystrix-dashboard9001" options="" />
+      <module name="springcloud-order-consul80" options="" />
+      <module name="springcloud-order-feign80" options="" />
+      <module name="springcloud-order-hystrix80" options="" />
+      <module name="springcloud-order-zookeeper80" options="" />
+      <module name="springcloud-order80" options="" />
+      <module name="springcloud-payment-consul8001" options="" />
+      <module name="springcloud-payment-hystrix8001" options="" />
+      <module name="springcloud-payment-zookeeper8001" options="" />
+      <module name="springcloud-payment8001" options="" />
+      <module name="springcloud-payment8002" options="" />
+      <module name="springcloud-sleuth-consumer80" options="" />
+      <module name="springcloud-sleuth-provider8001" options="" />
+      <module name="springcloud-stream-consumer8802" options="" />
+      <module name="springcloud-stream-consumer8803" options="" />
+      <module name="springcloud-stream-provider8801" options="" />
+      <module name="untitled" options="" />
+      <module name="untitled1" options="" />
+    </option>
+  </component>
+</project>

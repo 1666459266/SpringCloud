@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e8597d4e-695e-4eb2-ae82-46df2d60ddb4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\.m2\repository" />
+        <option name="mavenHome" value="D:/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\maven\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cZI0mGCetMJqkaxJp4FfsZilBP" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springcloud-alibaba-seata-account2003/src/main/java/com/springcloud/core" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.29056048" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.springcloud.core.dao" />
+      <recent name="com.springcloud.core.entity" />
+      <recent name="com.springcloud.core.controller" />
+      <recent name="com.springcloud.core.config" />
+      <recent name="com.springcloud.core" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IntelliJ IDEA 2019.3\Intellij IDEA\Spring Cloud\springcloud-alibaba-seata-account2003\src\main\java\com\springcloud\core" />
+      <recent name="D:\IntelliJ IDEA 2019.3\Intellij IDEA\Spring Cloud\springcloud-alibaba-seata-account2003\src\main\resources" />
+      <recent name="D:\IntelliJ IDEA 2019.3\Intellij IDEA\Spring Cloud\springcloud-alibaba-seata-storage2002\src\main\java\com\springcloud\core" />
+      <recent name="D:\IntelliJ IDEA 2019.3\Intellij IDEA\Spring Cloud\springcloud-alibaba-seata-storage2002\src\main\resources" />
+      <recent name="D:\IntelliJ IDEA 2019.3\Intellij IDEA\Spring Cloud\springcloud-alibaba-seata-order2001\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringCloudAlibabaSeataAccountApplication2003">
+    <configuration name="SpringCloudAlibabaConfigNacosApplication3377" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springcloud-alibaba-config-nacos-client3377" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springcloud.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.core.SpringCloudAlibabaConfigNacosApplication3377" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudAlibabaOrderNacosApplication80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springcloud-alibaba-order-nacos80" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springcloud.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.core.SpringCloudAlibabaOrderNacosApplication80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudAlibabaOrderSentinelApplication80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springcloud-alibaba-order-sentinel80" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springcloud.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.core.SpringCloudAlibabaOrderSentinelApplication80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudAlibabaPaymentNacosApplication9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springcloud-alibaba-payment-nacos9001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springcloud.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.core.SpringCloudAlibabaPaymentNacosApplication9001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudAlibabaPaymentNacosApplication9002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springcloud-alibaba-payment-nacos9002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springcloud.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.core.SpringCloudAlibabaPaymentNacosApplication9002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudAlibabaPaymentSentinelApplication9003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springcloud-alibaba-payment-sentinel9003" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springcloud.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.core.SpringCloudAlibabaPaymentSentinelApplication9003" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudAlibabaPaymentSentinelApplication9004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springcloud-alibaba-payment-sentinel9004" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springcloud.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.core.SpringCloudAlibabaPaymentSentinelApplication9004" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudAlibabaSeataAccountApplication2003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springcloud-alibaba-seata-account2003" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springcloud.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.core.SpringCloudAlibabaSeataAccountApplication2003" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudAlibabaSeataOrderApplication2001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-alibaba-seata-order2001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.core.SpringCloudAlibabaSeataOrderApplication2001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudAlibabaSeataStorageApplication2002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-alibaba-seata-storage2002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.core.SpringCloudAlibabaSeataStorageApplication2002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudAlibabaSentinelServiceApplication8401" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springcloud-alibaba-sentinel-service8401" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springcloud.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.core.SpringCloudAlibabaSentinelServiceApplication8401" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudConfigCenterApplication3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springcloud-config-center3344" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springcloud.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.core.SpringCloudConfigCenterApplication3344" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudConfigClientApplication3355" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springcloud-config-client3355" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springcloud.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.core.SpringCloudConfigClientApplication3355" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudConfigClientApplication3366" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-config-client3366" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.core.SpringCloudConfigClientApplication3366" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudEurekaServerApplication7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springcloud-eureka-server7001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springcloud.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.core.SpringCloudEurekaServerApplication7001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudEurekaServerApplication7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springcloud-eureka-server7002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springcloud.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.core.SpringCloudEurekaServerApplication7002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudEurekaServerApplication7003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springcloud-eureka-server7003" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springcloud.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.core.SpringCloudEurekaServerApplication7003" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudGatewayApplication9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springcloud-gateway9527" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springcloud.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.core.SpringCloudGatewayApplication9527" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudHystrixDashboardApplication9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-hystrix-dashboard9001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.core.SpringCloudHystrixDashboardApplication9001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudOrderApplication80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-order80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.core.SpringCloudOrderApplication80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudOrderConsulApplication80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springcloud-order-consul80" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springcloud.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.core.SpringCloudOrderConsulApplication80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudOrderFeignApplication80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springcloud-order-feign80" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springcloud.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.core.SpringCloudOrderFeignApplication80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudOrderHystrixApplication80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-order-hystrix80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.core.SpringCloudOrderHystrixApplication80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudOrderZookeeperApplication80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springcloud-order-zookeeper80" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springcloud.core.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.core.SpringCloudOrderZookeeperApplication80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudPaymentApplication8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-payment8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.core.SpringCloudPaymentApplication8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudPaymentApplication8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-payment8002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.core.SpringCloudPaymentApplication8002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudPaymentConsulApplication8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springcloud-payment-consul8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springcloud.core.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.core.SpringCloudPaymentConsulApplication8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudPaymentHystrixApplication8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springcloud-payment-hystrix8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springcloud.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.core.SpringCloudPaymentHystrixApplication8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudPaymentZookeeperApplication8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-payment-zookeeper8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.core.SpringCloudPaymentZookeeperApplication8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudSleuthConsumerApplication80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springcloud-sleuth-consumer80" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springcloud.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.core.SpringCloudSleuthConsumerApplication80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudSleuthProviderApplication8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springcloud-sleuth-provider8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springcloud.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.core.SpringCloudSleuthProviderApplication8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudStreamConsumerApplication8802" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springcloud-stream-consumer8802" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springcloud.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.core.SpringCloudStreamConsumerApplication8802" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudStreamConsumerApplication8803" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springcloud-stream-consumer8803" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springcloud.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.core.SpringCloudStreamConsumerApplication8803" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudStreamProviderApplication8801" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springcloud-stream-provider8801" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springcloud.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.core.SpringCloudStreamProviderApplication8801" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.SpringCloudEurekaServerApplication7001" />
+      <item itemvalue="Spring Boot.SpringCloudEurekaServerApplication7002" />
+      <item itemvalue="Spring Boot.SpringCloudEurekaServerApplication7003" />
+      <item itemvalue="Spring Boot.SpringCloudPaymentApplication8001" />
+      <item itemvalue="Spring Boot.SpringCloudPaymentApplication8002" />
+      <item itemvalue="Spring Boot.SpringCloudOrderApplication80" />
+      <item itemvalue="Spring Boot.SpringCloudPaymentZookeeperApplication8001" />
+      <item itemvalue="Spring Boot.SpringCloudOrderZookeeperApplication80" />
+      <item itemvalue="Spring Boot.SpringCloudPaymentConsulApplication8001" />
+      <item itemvalue="Spring Boot.SpringCloudOrderConsulApplication80" />
+      <item itemvalue="Spring Boot.SpringCloudOrderFeignApplication80" />
+      <item itemvalue="Spring Boot.SpringCloudPaymentHystrixApplication8001" />
+      <item itemvalue="Spring Boot.SpringCloudOrderHystrixApplication80" />
+      <item itemvalue="Spring Boot.SpringCloudHystrixDashboardApplication9001" />
+      <item itemvalue="Spring Boot.SpringCloudGatewayApplication9527" />
+      <item itemvalue="Spring Boot.SpringCloudConfigCenterApplication3344" />
+      <item itemvalue="Spring Boot.SpringCloudConfigClientApplication3355" />
+      <item itemvalue="Spring Boot.SpringCloudConfigClientApplication3366" />
+      <item itemvalue="Spring Boot.SpringCloudStreamProviderApplication8801" />
+      <item itemvalue="Spring Boot.SpringCloudStreamConsumerApplication8802" />
+      <item itemvalue="Spring Boot.SpringCloudStreamConsumerApplication8803" />
+      <item itemvalue="Spring Boot.SpringCloudSleuthProviderApplication8001" />
+      <item itemvalue="Spring Boot.SpringCloudSleuthConsumerApplication80" />
+      <item itemvalue="Spring Boot.SpringCloudAlibabaPaymentNacosApplication9001" />
+      <item itemvalue="Spring Boot.SpringCloudAlibabaPaymentNacosApplication9002" />
+      <item itemvalue="Spring Boot.SpringCloudAlibabaOrderNacosApplication80" />
+      <item itemvalue="Spring Boot.SpringCloudAlibabaConfigNacosApplication3377" />
+      <item itemvalue="Spring Boot.SpringCloudAlibabaSentinelServiceApplication8401" />
+      <item itemvalue="Spring Boot.SpringCloudAlibabaPaymentSentinelApplication9003" />
+      <item itemvalue="Spring Boot.SpringCloudAlibabaPaymentSentinelApplication9004" />
+      <item itemvalue="Spring Boot.SpringCloudAlibabaOrderSentinelApplication80" />
+      <item itemvalue="Spring Boot.SpringCloudAlibabaSeataOrderApplication2001" />
+      <item itemvalue="Spring Boot.SpringCloudAlibabaSeataStorageApplication2002" />
+      <item itemvalue="Spring Boot.SpringCloudAlibabaSeataAccountApplication2003" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8597d4e-695e-4eb2-ae82-46df2d60ddb4" name="Default Changelist" comment="" />
+      <created>1590729467486</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590729467486</updated>
+      <workItem from="1590729468620" duration="2522000" />
+      <workItem from="1590732004144" duration="13779000" />
+      <workItem from="1590811182462" duration="46000" />
+      <workItem from="1590811408744" duration="224000" />
+      <workItem from="1590811644847" duration="8750000" />
+      <workItem from="1590821249234" duration="4000" />
+      <workItem from="1590821255842" duration="4000" />
+      <workItem from="1590821261937" duration="8490000" />
+      <workItem from="1590829865826" duration="1298000" />
+      <workItem from="1590974556873" duration="5939000" />
+      <workItem from="1590984287097" duration="12582000" />
+      <workItem from="1591007587649" duration="12547000" />
+      <workItem from="1591022122066" duration="335000" />
+      <workItem from="1591060540803" duration="9438000" />
+      <workItem from="1591081301316" duration="599000" />
+      <workItem from="1591089826832" duration="643000" />
+      <workItem from="1591090708275" duration="10068000" />
+      <workItem from="1591100795124" duration="36000" />
+      <workItem from="1591100832664" duration="619000" />
+      <workItem from="1591101453703" duration="3757000" />
+      <workItem from="1591105216951" duration="3994000" />
+      <workItem from="1591146239826" duration="1730000" />
+      <workItem from="1591150730183" duration="100000" />
+      <workItem from="1591150831986" duration="960000" />
+      <workItem from="1591151794480" duration="5003000" />
+      <workItem from="1591159475017" duration="398000" />
+      <workItem from="1591159875065" duration="72000" />
+      <workItem from="1591159950105" duration="7462000" />
+      <workItem from="1591167423353" duration="273000" />
+      <workItem from="1591167699708" duration="811000" />
+      <workItem from="1591168513145" duration="1245000" />
+      <workItem from="1591169762729" duration="716000" />
+      <workItem from="1591174930351" duration="8173000" />
+      <workItem from="1591183273459" duration="4197000" />
+      <workItem from="1591187795480" duration="6129000" />
+      <workItem from="1591195880648" duration="895000" />
+      <workItem from="1591232923720" duration="10573000" />
+      <workItem from="1591246983473" duration="58000" />
+      <workItem from="1591247467818" duration="2516000" />
+      <workItem from="1591250000711" duration="605000" />
+      <workItem from="1591250713498" duration="4796000" />
+      <workItem from="1591255522403" duration="4476000" />
+      <workItem from="1591260006178" duration="1492000" />
+      <workItem from="1591261542350" duration="1109000" />
+      <workItem from="1591262654848" duration="782000" />
+      <workItem from="1591263445004" duration="2798000" />
+      <workItem from="1591271492005" duration="2092000" />
+      <workItem from="1591273603352" duration="473000" />
+      <workItem from="1591274078972" duration="8973000" />
+      <workItem from="1591319101160" duration="102000" />
+      <workItem from="1591319218394" duration="9089000" />
+      <workItem from="1591330403914" duration="643000" />
+      <workItem from="1591331050136" duration="3301000" />
+      <workItem from="1591334357043" duration="344000" />
+      <workItem from="1591334702913" duration="34000" />
+      <workItem from="1591334738708" duration="1876000" />
+      <workItem from="1591338026908" duration="22000" />
+      <workItem from="1591340157219" duration="626000" />
+      <workItem from="1591341104832" duration="1187000" />
+      <workItem from="1591342294989" duration="1554000" />
+      <workItem from="1591578796095" duration="6212000" />
+      <workItem from="1591585779564" duration="2069000" />
+      <workItem from="1591594069533" duration="3943000" />
+      <workItem from="1591598018390" duration="103000" />
+      <workItem from="1591598123212" duration="1113000" />
+      <workItem from="1591599238902" duration="11000" />
+      <workItem from="1591599252238" duration="15000" />
+      <workItem from="1591599269188" duration="36000" />
+      <workItem from="1591599306522" duration="13000" />
+      <workItem from="1591599321116" duration="8347000" />
+      <workItem from="1591607680709" duration="25000" />
+      <workItem from="1591609535359" duration="6227000" />
+      <workItem from="1591616233982" duration="720000" />
+      <workItem from="1591616956611" duration="4198000" />
+      <workItem from="1591621476356" duration="79000" />
+      <workItem from="1591621573806" duration="54000" />
+      <workItem from="1591621640481" duration="24000" />
+      <workItem from="1591621666280" duration="2438000" />
+      <workItem from="1591624219842" duration="353000" />
+      <workItem from="1591664712425" duration="8877000" />
+      <workItem from="1591679092286" duration="14379000" />
+      <workItem from="1591694011398" duration="1243000" />
+      <workItem from="1591698017943" duration="2582000" />
+      <workItem from="1591700605737" duration="4784000" />
+      <workItem from="1591706363972" duration="78000" />
+      <workItem from="1591706549662" duration="462000" />
+      <workItem from="1591707013421" duration="162000" />
+      <workItem from="1591707177755" duration="914000" />
+      <workItem from="1591708094591" duration="579000" />
+      <workItem from="1591708675885" duration="2120000" />
+      <workItem from="1591710800400" duration="147000" />
+      <workItem from="1591750730044" duration="10949000" />
+      <workItem from="1591771844186" duration="1602000" />
+      <workItem from="1591773460831" duration="3362000" />
+      <workItem from="1591776900589" duration="916000" />
+      <workItem from="1591777823087" duration="99000" />
+      <workItem from="1591786218412" duration="3068000" />
+      <workItem from="1591789296934" duration="1255000" />
+      <workItem from="1591790554716" duration="54000" />
+      <workItem from="1591790610620" duration="1009000" />
+      <workItem from="1591791623632" duration="135000" />
+      <workItem from="1591791760335" duration="2473000" />
+      <workItem from="1591794238168" duration="88000" />
+      <workItem from="1591794327475" duration="338000" />
+      <workItem from="1591794667374" duration="595000" />
+      <workItem from="1591795265068" duration="1742000" />
+      <workItem from="1591797010985" duration="115000" />
+      <workItem from="1591797154707" duration="205000" />
+      <workItem from="1591837281652" duration="1115000" />
+      <workItem from="1591838403414" duration="184000" />
+      <workItem from="1591838592085" duration="2784000" />
+      <workItem from="1591841381707" duration="2449000" />
+      <workItem from="1591843835486" duration="5631000" />
+      <workItem from="1591850920408" duration="6707000" />
+      <workItem from="1591859174554" duration="20000" />
+      <workItem from="1591859196272" duration="64000" />
+      <workItem from="1591859262162" duration="928000" />
+      <workItem from="1591860209127" duration="253000" />
+      <workItem from="1591860485472" duration="461000" />
+      <workItem from="1591860948589" duration="400000" />
+      <workItem from="1591861357101" duration="7025000" />
+      <workItem from="1591871675702" duration="1672000" />
+      <workItem from="1591874273290" duration="321000" />
+      <workItem from="1591874596792" duration="646000" />
+      <workItem from="1591875244581" duration="1192000" />
+      <workItem from="1591876487434" duration="473000" />
+      <workItem from="1591876962989" duration="2006000" />
+      <workItem from="1591878971998" duration="384000" />
+      <workItem from="1591879358417" duration="253000" />
+      <workItem from="1591879646303" duration="3733000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Auto_Import" timestamp="1591863634155">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Auto_Import/0.0.1920.1040@0.0.1920.1040" timestamp="1591863634155" />
+    <state x="552" y="178" key="#Notifications" timestamp="1591599314321">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1591599314321" />
+    <state x="360" y="106" width="1329" height="770" key="#Project_Structure" timestamp="1591841369791">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="360" y="106" width="1329" height="770" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1591841369791" />
+    <state x="414" y="175" width="1196" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591879601181">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" width="1196" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591879601181" />
+    <state x="663" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591599882097">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="663" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591599882097" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1591795714137">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591795714137" />
+    <state x="499" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1590824915162">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="499" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590824915162" />
+    <state x="617" y="378" width="686" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1591019701359">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="617" y="378" width="686" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1591019701359" />
+    <state width="1293" height="282" key="GridCell.Tab.0.bottom" timestamp="1591883383666">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591883383666" />
+    <state width="1293" height="282" key="GridCell.Tab.0.center" timestamp="1591883383666">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591883383666" />
+    <state width="1293" height="282" key="GridCell.Tab.0.left" timestamp="1591883383666">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591883383666" />
+    <state width="1293" height="282" key="GridCell.Tab.0.right" timestamp="1591883383666">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591883383666" />
+    <state width="1293" height="282" key="GridCell.Tab.1.bottom" timestamp="1591883383666">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591883383666" />
+    <state width="1293" height="282" key="GridCell.Tab.1.center" timestamp="1591883383666">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591883383666" />
+    <state width="1293" height="282" key="GridCell.Tab.1.left" timestamp="1591883383666">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591883383666" />
+    <state width="1293" height="282" key="GridCell.Tab.1.right" timestamp="1591883383666">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591883383666" />
+    <state width="1293" height="282" key="GridCell.Tab.2.bottom" timestamp="1591838400886">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591838400886" />
+    <state width="1293" height="282" key="GridCell.Tab.2.center" timestamp="1591838400885">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591838400885" />
+    <state width="1293" height="282" key="GridCell.Tab.2.left" timestamp="1591838400885">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591838400885" />
+    <state width="1293" height="282" key="GridCell.Tab.2.right" timestamp="1591838400885">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591838400885" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1591235295905">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591235295905" />
+    <state x="334" y="215" key="new project wizard" timestamp="1591858924247">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="215" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1591858924247" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1591866865836">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591866865836" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1591838487827">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591838487827" />
+  </component>
+</project>
